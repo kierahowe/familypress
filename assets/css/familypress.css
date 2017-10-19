@@ -1,0 +1,78 @@
+/* .fp_output_person */
+.fp_person_name { 
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+.fp_person_image { 
+	display: inline-block;
+	width: calc( 50% - 10px );
+}
+.fp_person_image img { 
+	width: 100%;
+	max-height: 200px;
+	object-fit: contain;
+}
+
+.fp_person_details { 
+	display: inline-block;
+	width: calc( 50% - 10px );
+	vertical-align: top;
+}
+
+div.fp_person_details table td,
+div.fp_person_marrage table td { 
+	text-align: left;
+	vertical-align: top;
+}
+
+.fp_person_extended,.fp_person_family { 
+	border-top: 2px solid #f1f1f1;
+}
+
+.fp_person_birthdeath, 
+.fp_person_marrage { 
+	width: calc( 50% - 54px );
+	border: 1px solid #f1f1f1;
+	display: inline-block;
+	margin: 10px;
+	vertical-align: top;
+	padding: 15px;
+}
+
+.fp_person_children,
+.fp_person_parents,
+.fp_person_siblings { 
+	width: calc( 33% - 52px );
+	border: 1px solid #f1f1f1;
+	display: inline-block;
+	margin: 10px;
+	vertical-align: top;
+	padding: 15px;
+}
+
+.fp_title { 
+	color: black;
+	font-size: 19px;
+	font-weight: bold;
+}
+
+.fp_marragetable >div { 
+
+}
+.fp_marrage_to { 
+	margin-left: 20px;
+}
+
+@media screen and (max-width: 500px) {
+	.fp_person_children,
+	.fp_person_parents,
+	.fp_person_siblings,
+	.fp_person_birthdeath, 
+	.fp_person_marrage { 
+
+		width: 100%;
+	}
+}

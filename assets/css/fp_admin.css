@@ -1,0 +1,47 @@
+.fp_event_type_inputs {
+	display: none;	
+}
+
+.fp_settings_page_select { 
+	width: 100%;
+	max-width: 300px;
+}
+
+.fp_post_select { 
+	width: 60%;
+	max-width: 300px;
+}
+
+.fp_parent_block { 
+	padding: 10px;
+}
+
+.fp_table { 
+	display: table;
+	width: 600px;
+}
+
+.fp_table_row { 
+	display: table-row;
+}
+
+.fp_table_cell {
+	display: table-cell;	
+	padding: 5px;
+}
+
+.fp_table_cell:first-child {
+	width: 100px;	
+}
+
+.fp_addnew_text { 
+	display: none;
+}
+
+#fp_add_divorce { 
+	display: none;
+}
+
+.fp_import_file { 
+	padding: 20px;
+}
