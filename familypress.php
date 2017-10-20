@@ -7,7 +7,7 @@
 Plugin Name: FamilyPress
 Plugin URI: http://webweapons.com
 Description: This creates a family tree interface and output.
-Author: Kiera Howe and Shanta Nathwani
+Author: Kiera Howe
 Version: 1.0
 Author URI: http://webweapons.com
 */
