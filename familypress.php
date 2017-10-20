@@ -5,11 +5,11 @@
  */
 /*
 Plugin Name: FamilyPress
-Plugin URI: http://webweapons.com
+Plugin URI: http://familypress.pro
 Description: This creates a family tree interface and output.
 Author: Kiera Howe
 Version: 1.0
-Author URI: http://webweapons.com
+Author URI: http://familypress.pro
 */
 
 require_once ( plugin_dir_path(__FILE__) . 'inc/enqueue.php' );
